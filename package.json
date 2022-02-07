@@ -1,7 +1,7 @@
 {
   "name": "uber_2",
   "version": "1.0.0",
-  "description": "My first gulp project",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/seregius/Uber_2.git"
   },
-  "author": "Sergey Lomyko",
+  "author": "LSV",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/seregius/Uber_2/issues"
   },
-  "homepage": "https://github.com/seregius/Uber_2#readme"
+  "homepage": "https://github.com/seregius/Uber_2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.7"
+  }
 }
